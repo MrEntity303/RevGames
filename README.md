@@ -1,23 +1,28 @@
-# ST1121-ProgrammazioneApplicazioniWebMobile - RevGames
+# ST1121-WebMobileApplicationsProgramming - RevGames
 
-Il progetto consiste nella realizzazione di una Single Page Application, che permette agli utenti di registrarsi, loggarsi, ed effettuare recensioni sui videogiochi.
-Ovviamente sarà comunque possibile visualizzare tutte le recensioni esposte dal sito pur non avendo effettuato il login.
+The project consists of building a Single Page Application that allows users to register, log in, and leave reviews on video games. Of course, it will still be possible to view all reviews displayed on the site without logging in.
 
-Oltre all’utente normale, sara’ presente anche un utente admin, che avra’ la possibilita’ di inserire dei videogiochi, tramite la sezione dedicata.
+In addition to regular users, there will also be an admin user who will have the ability to add video games through the dedicated section.
 
-## Installazione
+## Installation
 
-1. Clonare il repository: `git clone https://github.com/MrEntity303/RevGames`
-2. Entrare nella directory del progetto: `cd RevGames`
-3. Installare le dipendenze: `npm install`
+1. Clone the repository: `git clone https://github.com/MrEntity303/RevGames`
+2. Navigate to the project directory: `cd RevGames`
+3. Install dependencies: `npm install`
+
+## Usage
+
+1. Start the Express server: `node index.js`
+2. Start the Vue web server: `npm run serve`
+3. Open a browser and visit http://localhost:8080 to view the Vue application.
+
+## Contributors
+
+- Patryk Sebastian Bialowas ([@MrEntity303](https://github.com/MrEntity303))
+- Carmine Marchesani ([@carmcc](https://github.com/carmcc))
+- Marco Cocilova ([@Marclova](https://github.com/Marclova))
 
 
-## Utilizzo
+## License
 
-1. Avviare il server Express: `node index.js`
-2. Avviare il webserver Vue: `npm run serve`
-3. Aprire il browser e visitare http://localhost:8080 per visualizzare l'applicazione Vue.
-
-## Licenza
-
-Questo progetto è distribuito con la licenza MIT. Consulta il file [LICENSE](https://github.com/MrEntity303/RevGames/blob/main/LICENSE) per ulteriori informazioni.
+This project is distributed under the MIT License. See the [LICENSE](https://github.com/MrEntity303/RevGames/blob/main/LICENSE) file for more information.
